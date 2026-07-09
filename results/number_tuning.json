@@ -1,0 +1,150 @@
+{
+  "Qwen3-0.6B": {
+    "best_r_mean": 0.9059093036647431,
+    "best_r_std": 0.04633231433746907,
+    "null_mean": 0.1398874105930738,
+    "bell_fraction": 0.0,
+    "size": 0.6,
+    "family": "Qwen"
+  },
+  "Llama-3.2-1B": {
+    "best_r_mean": 0.9698522923991961,
+    "best_r_std": 0.00391151210934998,
+    "null_mean": 0.1109063755308723,
+    "bell_fraction": 0.0,
+    "size": 1.0,
+    "family": "Llama"
+  },
+  "Qwen3-1.7B": {
+    "best_r_mean": 0.8672335242263447,
+    "best_r_std": 0.11009898362924725,
+    "null_mean": 0.2750064384741553,
+    "bell_fraction": 0.0,
+    "size": 1.7,
+    "family": "Qwen"
+  },
+  "Llama-3.2-3B": {
+    "best_r_mean": 0.9042527878804506,
+    "best_r_std": 0.04137039539461309,
+    "null_mean": 0.13755435663432156,
+    "bell_fraction": 0.0,
+    "size": 3.0,
+    "family": "Llama"
+  },
+  "Phi-3.5-mini": {
+    "best_r_mean": 0.8005852673765366,
+    "best_r_std": 0.11618674974385283,
+    "null_mean": 0.14419090547244207,
+    "bell_fraction": 0.0,
+    "size": 3.8,
+    "family": "Phi"
+  },
+  "Qwen3-4B": {
+    "best_r_mean": 0.9554507203152507,
+    "best_r_std": 0.008788252714222499,
+    "null_mean": 0.19470286234272846,
+    "bell_fraction": 0.0,
+    "size": 4.0,
+    "family": "Qwen"
+  },
+  "Qwen3-8B": {
+    "best_r_mean": 0.9374010120634171,
+    "best_r_std": 0.03284567549151246,
+    "null_mean": 0.1607064596283209,
+    "bell_fraction": 0.0,
+    "size": 8.0,
+    "family": "Qwen"
+  },
+  "Ministral-8B": {
+    "best_r_mean": 0.8919035735279512,
+    "best_r_std": 0.06340605761404065,
+    "null_mean": 0.19287952939653127,
+    "bell_fraction": 0.0,
+    "size": 8.0,
+    "family": "Mistral"
+  },
+  "Llama-3.1-8B": {
+    "best_r_mean": 0.8077014661712614,
+    "best_r_std": 0.08888372820531823,
+    "null_mean": 0.19968272500776849,
+    "bell_fraction": 0.0,
+    "size": 8.0,
+    "family": "Llama"
+  },
+  "phi-4": {
+    "best_r_mean": 0.8994137745025406,
+    "best_r_std": 0.026486203403656945,
+    "null_mean": 0.16707236493590752,
+    "bell_fraction": 0.0,
+    "size": 14.0,
+    "family": "Phi"
+  },
+  "Qwen3-14B": {
+    "best_r_mean": 0.919240345065442,
+    "best_r_std": 0.033932228338491716,
+    "null_mean": 0.12467929464336402,
+    "bell_fraction": 0.0,
+    "size": 14.0,
+    "family": "Qwen"
+  },
+  "Mistral-Small-24B": {
+    "best_r_mean": 0.9536435693921052,
+    "best_r_std": 0.03610462516939058,
+    "null_mean": 0.18318853443201907,
+    "bell_fraction": 0.0,
+    "size": 24.0,
+    "family": "Mistral",
+    "precision": "bf16"
+  },
+  "Qwen3-32B": {
+    "best_r_mean": 0.8771236056528006,
+    "best_r_std": 0.12231788605272974,
+    "null_mean": 0.16783999618001394,
+    "bell_fraction": 0.0,
+    "size": 32.0,
+    "family": "Qwen",
+    "precision": "bf16"
+  },
+  "Qwen3-32B-8bit": {
+    "best_r_mean": 0.8775420808559403,
+    "best_r_std": 0.12431726759273586,
+    "null_mean": 0.24339521814792747,
+    "bell_fraction": 0.0,
+    "size": 32.0,
+    "family": "Qwen",
+    "precision": "8bit"
+  },
+  "Qwen2.5-72B": {
+    "best_r_mean": 0.957769247105287,
+    "best_r_std": 0.01600472223401122,
+    "null_mean": 0.19584826159477514,
+    "bell_fraction": 0.0,
+    "size": 72.0,
+    "family": "Qwen",
+    "precision": "4bit"
+  },
+  "Gemma-2-9B": {
+    "best_r_mean": 0.9790842648728011,
+    "best_r_std": 0.003185240652919761,
+    "null_mean": 0.12095912293749014,
+    "bell_fraction": 0.0,
+    "size": 9.0,
+    "family": "Gemma"
+  },
+  "Gemma-2-27B": {
+    "best_r_mean": 0.6760536479072664,
+    "best_r_std": 0.08768415634526742,
+    "null_mean": 0.164625245926427,
+    "bell_fraction": 0.0,
+    "size": 27.0,
+    "family": "Gemma"
+  },
+  "Llama-3.1-70B": {
+    "best_r_mean": 0.9401679940630784,
+    "best_r_std": 0.01362799544700851,
+    "null_mean": 0.24584143172513065,
+    "bell_fraction": 0.0,
+    "size": 70.0,
+    "family": "Llama"
+  }
+}

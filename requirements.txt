@@ -1,0 +1,13 @@
+torch>=2.4
+transformers>=4.45
+accelerate>=0.34        # multi-GPU device_map='auto' (MULTI_GPU=1)
+bitsandbytes>=0.43      # optional: 4-bit quantization (LOAD_4BIT=1)
+numpy
+scipy
+scikit-learn
+matplotlib
+huggingface_hub
+sentencepiece           # some tokenizers (e.g. Mistral) need this
+tiktoken                 # Llama-3 / Qwen tokenizers need this
+protobuf
+blobfile

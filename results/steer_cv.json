@@ -1,0 +1,52 @@
+{
+  "Qwen3-0.6B": {
+    "heldout_pass": 0.75,
+    "heldout_eff": 6.45121779113508,
+    "fixed_pass": 0.5,
+    "picks": [
+      "0.8|4.0",
+      "0.8|4.0"
+    ],
+    "size": 0.6
+  },
+  "Qwen3-1.7B": {
+    "heldout_pass": 1.0,
+    "heldout_eff": 14.458353872420814,
+    "fixed_pass": 0.875,
+    "picks": [
+      "0.8|4.0",
+      "0.8|4.0"
+    ],
+    "size": 1.7
+  },
+  "Qwen3-4B": {
+    "heldout_pass": 0.75,
+    "heldout_eff": 6.269228993535451,
+    "fixed_pass": 0.25,
+    "picks": [
+      "0.8|0.5",
+      "0.8|0.5"
+    ],
+    "size": 4.0
+  },
+  "Qwen3-8B": {
+    "heldout_pass": 0.5,
+    "heldout_eff": 8.516669651629067,
+    "fixed_pass": 0.5,
+    "picks": [
+      "0.8|4.0",
+      "0.8|4.0"
+    ],
+    "size": 8.0
+  },
+  "Qwen3-14B": {
+    "heldout_pass": 1.0,
+    "heldout_eff": 14.211482503372146,
+    "fixed_pass": 0.25,
+    "picks": [
+      "0.8|4.0",
+      "0.8|4.0"
+    ],
+    "size": 14.0
+  }
+}

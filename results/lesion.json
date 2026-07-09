@@ -1,0 +1,321 @@
+{
+  "Qwen3-0.6B": {
+    "K": 172,
+    "K_frac": 0.001999627976190476,
+    "ablate_zh": {
+      "dnll_zh": 2.0261085510253913,
+      "dnll_en": 0.30857739448547417
+    },
+    "ablate_en": {
+      "dnll_zh": -0.10447263717651367,
+      "dnll_en": 0.49983730316162145
+    },
+    "ablate_random": {
+      "dnll_zh": 0.0002068519592288709,
+      "dnll_en": -0.033196592330932084
+    },
+    "zh_selectivity": 1.7175311565399172,
+    "en_selectivity": 0.6043099403381351,
+    "double_dissociation": true,
+    "size": 0.6,
+    "family": "Qwen"
+  },
+  "Llama-3.2-1B": {
+    "K": 262,
+    "K_frac": 0.0019989013671875,
+    "ablate_zh": {
+      "dnll_zh": 8.663494491577147,
+      "dnll_en": 2.9022163391113276
+    },
+    "ablate_en": {
+      "dnll_zh": 3.752739334106445,
+      "dnll_en": 3.090150451660156
+    },
+    "ablate_random": {
+      "dnll_zh": 0.030306196212769088,
+      "dnll_en": 0.008215999603271129
+    },
+    "zh_selectivity": 5.761278152465819,
+    "en_selectivity": -0.6625888824462889,
+    "double_dissociation": false,
+    "size": 1.0,
+    "family": "Llama"
+  },
+  "Qwen3-1.7B": {
+    "K": 344,
+    "K_frac": 0.001999627976190476,
+    "ablate_zh": {
+      "dnll_zh": 2.495038604736328,
+      "dnll_en": 0.4905815601348875
+    },
+    "ablate_en": {
+      "dnll_zh": 6.422387599945068,
+      "dnll_en": 8.509839057922363
+    },
+    "ablate_random": {
+      "dnll_zh": 0.018568754196166992,
+      "dnll_en": -0.009657764434814808
+    },
+    "zh_selectivity": 2.0044570446014407,
+    "en_selectivity": 2.087451457977295,
+    "double_dissociation": true,
+    "size": 1.7,
+    "family": "Qwen"
+  },
+  "Llama-3.2-3B": {
+    "K": 458,
+    "K_frac": 0.0019967215401785715,
+    "ablate_zh": {
+      "dnll_zh": 8.401538181304932,
+      "dnll_en": 0.17925319671630913
+    },
+    "ablate_en": {
+      "dnll_zh": 6.585138034820558,
+      "dnll_en": 3.9160767555236813
+    },
+    "ablate_random": {
+      "dnll_zh": 0.006916999816894531,
+      "dnll_en": -0.02240338325500435
+    },
+    "zh_selectivity": 8.222284984588622,
+    "en_selectivity": -2.6690612792968764,
+    "double_dissociation": false,
+    "size": 3.0,
+    "family": "Llama"
+  },
+  "Phi-3.5-mini": {
+    "K": 524,
+    "K_frac": 0.0019989013671875,
+    "ablate_zh": {
+      "dnll_zh": 9.639470124244689,
+      "dnll_en": 0.046745157241820934
+    },
+    "ablate_en": {
+      "dnll_zh": 20.354350304603578,
+      "dnll_en": 15.621320486068726
+    },
+    "ablate_random": {
+      "dnll_zh": 0.052545380592345925,
+      "dnll_en": -0.0698074340820316
+    },
+    "zh_selectivity": 9.592724967002868,
+    "en_selectivity": -4.7330298185348525,
+    "double_dissociation": false,
+    "size": 3.8,
+    "family": "Phi"
+  },
+  "Qwen3-4B": {
+    "K": 700,
+    "K_frac": 0.001998812134502924,
+    "ablate_zh": {
+      "dnll_zh": 2.3561065196990967,
+      "dnll_en": 0.0027322292327882636
+    },
+    "ablate_en": {
+      "dnll_zh": 0.24848823547363263,
+      "dnll_en": 0.7508196830749512
+    },
+    "ablate_random": {
+      "dnll_zh": 0.05606722831726074,
+      "dnll_en": -0.0037723064422605646
+    },
+    "zh_selectivity": 2.3533742904663084,
+    "en_selectivity": 0.5023314476013185,
+    "double_dissociation": true,
+    "size": 4.0,
+    "family": "Qwen"
+  },
+  "Qwen3-8B": {
+    "K": 884,
+    "K_frac": 0.001998336226851852,
+    "ablate_zh": {
+      "dnll_zh": 3.211803817749023,
+      "dnll_en": 0.16209526062011737
+    },
+    "ablate_en": {
+      "dnll_zh": 0.19520850181579563,
+      "dnll_en": 0.7042183876037598
+    },
+    "ablate_random": {
+      "dnll_zh": 0.03871469497680646,
+      "dnll_en": 0.0237296581268307
+    },
+    "zh_selectivity": 3.0497085571289055,
+    "en_selectivity": 0.5090098857879641,
+    "double_dissociation": true,
+    "size": 8.0,
+    "family": "Qwen"
+  },
+  "Ministral-8B": {
+    "K": 884,
+    "K_frac": 0.001998336226851852,
+    "ablate_zh": {
+      "dnll_zh": 6.083038282394409,
+      "dnll_en": 1.0206336975097656
+    },
+    "ablate_en": {
+      "dnll_zh": -0.2861593246459959,
+      "dnll_en": 0.9805605888366706
+    },
+    "ablate_random": {
+      "dnll_zh": 0.003342866897583008,
+      "dnll_en": -0.02423257827758718
+    },
+    "zh_selectivity": 5.062404584884644,
+    "en_selectivity": 1.2667199134826665,
+    "double_dissociation": true,
+    "size": 8.0,
+    "family": "Mistral"
+  },
+  "Llama-3.1-8B": {
+    "K": 917,
+    "K_frac": 0.0019989013671875,
+    "ablate_zh": {
+      "dnll_zh": 9.745252895355225,
+      "dnll_en": 0.13100786209106463
+    },
+    "ablate_en": {
+      "dnll_zh": 7.519150066375733,
+      "dnll_en": 6.416007995605469
+    },
+    "ablate_random": {
+      "dnll_zh": 0.08895459175109854,
+      "dnll_en": -0.2566115379333498
+    },
+    "zh_selectivity": 9.614245033264162,
+    "en_selectivity": -1.1031420707702644,
+    "double_dissociation": false,
+    "size": 8.0,
+    "family": "Llama"
+  },
+  "phi-4": {
+    "K": 1433,
+    "K_frac": 0.0019991629464285714,
+    "ablate_zh": {
+      "dnll_zh": 4.278652715682983,
+      "dnll_en": 0.01080002784728995
+    },
+    "ablate_en": {
+      "dnll_zh": 0.9870689868927003,
+      "dnll_en": 1.416617250442505
+    },
+    "ablate_random": {
+      "dnll_zh": -0.003607702255249201,
+      "dnll_en": 0.006283187866210849
+    },
+    "zh_selectivity": 4.267852687835694,
+    "en_selectivity": 0.4295482635498047,
+    "double_dissociation": true,
+    "size": 14.0,
+    "family": "Phi"
+  },
+  "Qwen3-14B": {
+    "K": 1392,
+    "K_frac": 0.001999080882352941,
+    "ablate_zh": {
+      "dnll_zh": 1.2171542167663576,
+      "dnll_en": -0.28142471313476536
+    },
+    "ablate_en": {
+      "dnll_zh": 0.20769314765930202,
+      "dnll_en": 0.5989751338958742
+    },
+    "ablate_random": {
+      "dnll_zh": 0.02229361534118679,
+      "dnll_en": 0.05430088043212944
+    },
+    "zh_selectivity": 1.498578929901123,
+    "en_selectivity": 0.3912819862365722,
+    "double_dissociation": true,
+    "size": 14.0,
+    "family": "Qwen"
+  },
+  "Qwen3-32B-8bit": {
+    "K": 3276,
+    "K_frac": 0.00199951171875,
+    "ablate_zh": {
+      "dnll_zh": 1.4444169998168945,
+      "dnll_en": 0.01229510307312065
+    },
+    "ablate_en": {
+      "dnll_zh": 3.452421474456787,
+      "dnll_en": 6.750199842453004
+    },
+    "ablate_random": {
+      "dnll_zh": 0.02223143577575648,
+      "dnll_en": -0.001495027542113725
+    },
+    "zh_selectivity": 1.4321218967437739,
+    "en_selectivity": 3.2977783679962167,
+    "double_dissociation": true,
+    "size": 32.0,
+    "family": "Qwen",
+    "precision": "8bit"
+  },
+  "Mistral-Small-24B": {
+    "K": 2621,
+    "K_frac": 0.001999664306640625,
+    "ablate_zh": {
+      "dnll_zh": 7.6494340896606445,
+      "dnll_en": 0.4959684848785395
+    },
+    "ablate_en": {
+      "dnll_zh": 3.259858608245849,
+      "dnll_en": 2.093478727340698
+    },
+    "ablate_random": {
+      "dnll_zh": -0.011179971694946556,
+      "dnll_en": -0.0029185771942144
+    },
+    "zh_selectivity": 7.153465604782105,
+    "en_selectivity": -1.166379880905151,
+    "double_dissociation": false,
+    "size": 24.0,
+    "family": "Mistral",
+    "precision": "bf16"
+  },
+  "Qwen3-32B": {
+    "K": 3276,
+    "K_frac": 0.00199951171875,
+    "ablate_zh": {
+      "dnll_zh": 2.1398249149322512,
+      "dnll_en": 0.38957586288452184
+    },
+    "ablate_en": {
+      "dnll_zh": 0.4205841064453124,
+      "dnll_en": 1.106020832061768
+    },
+    "ablate_random": {
+      "dnll_zh": 0.0008498668670653409,
+      "dnll_en": -0.01594376564025879
+    },
+    "zh_selectivity": 1.7502490520477294,
+    "en_selectivity": 0.6854367256164555,
+    "double_dissociation": true,
+    "size": 32.0,
+    "family": "Qwen",
+    "precision": "bf16"
+  },
+  "Qwen2.5-72B": {
+    "K": 4730,
+    "K_frac": 0.001999627976190476,
+    "ablate_zh": {
+      "dnll_zh": 1.7979356288909911,
+      "dnll_en": 0.1242821216583252
+    },
+    "ablate_en": {
+      "dnll_zh": 7.2682312488555905,
+      "dnll_en": 4.817963695526123
+    },
+    "ablate_random": {
+      "dnll_zh": 0.007727622985839844,
+      "dnll_en": 0.001752281188964755
+    },
+    "zh_selectivity": 1.673653507232666,
+    "en_selectivity": -2.4502675533294678,
+    "double_dissociation": false,
+    "size": 72.0,
+    "family": "Qwen",
+    "precision": "4bit"
+  }
+}

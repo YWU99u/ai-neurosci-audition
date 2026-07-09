@@ -1,0 +1,138 @@
+{
+  "Qwen3-0.6B": {
+    "size": 0.6,
+    "family": "Qwen",
+    "bell_consistency_mean": 0.5454459406718536,
+    "bell_consistency_frac_high": 0.7333333333333333,
+    "welltuned_consistency_mean": 0.48410144623924495,
+    "random_consistency_mean": 0.3117910943490938
+  },
+  "Llama-3.2-1B": {
+    "size": 1.0,
+    "family": "Llama",
+    "bell_consistency_mean": 0.6353247071720285,
+    "bell_consistency_frac_high": 0.8333333333333334,
+    "welltuned_consistency_mean": 0.6155282293236329,
+    "random_consistency_mean": 0.3585853432111704
+  },
+  "Qwen3-1.7B": {
+    "size": 1.7,
+    "family": "Qwen",
+    "bell_consistency_mean": 0.44775983431971794,
+    "bell_consistency_frac_high": 0.5,
+    "welltuned_consistency_mean": 0.4509010997146337,
+    "random_consistency_mean": 0.3181705835988108
+  },
+  "Llama-3.2-3B": {
+    "size": 3.0,
+    "family": "Llama",
+    "bell_consistency_mean": 0.6377673492363906,
+    "bell_consistency_frac_high": 0.7666666666666667,
+    "welltuned_consistency_mean": 0.6615153197315863,
+    "random_consistency_mean": 0.507961248710492
+  },
+  "Phi-3.5-mini": {
+    "size": 3.8,
+    "family": "Phi",
+    "bell_consistency_mean": 0.6849477588879334,
+    "bell_consistency_frac_high": 0.8333333333333334,
+    "welltuned_consistency_mean": 0.6057177265683716,
+    "random_consistency_mean": 0.36408305623069886
+  },
+  "Qwen3-4B": {
+    "size": 4.0,
+    "family": "Qwen",
+    "bell_consistency_mean": 0.4628645963244124,
+    "bell_consistency_frac_high": 0.6,
+    "welltuned_consistency_mean": 0.3175644384603475,
+    "random_consistency_mean": 0.2896698125965474
+  },
+  "Qwen3-8B": {
+    "size": 8.0,
+    "family": "Qwen",
+    "bell_consistency_mean": 0.3838761900262185,
+    "bell_consistency_frac_high": 0.5,
+    "welltuned_consistency_mean": 0.0398320225562946,
+    "random_consistency_mean": 0.30059439621608974
+  },
+  "Ministral-8B": {
+    "size": 8.0,
+    "family": "Mistral",
+    "bell_consistency_mean": 0.6028596009458973,
+    "bell_consistency_frac_high": 0.7333333333333333,
+    "welltuned_consistency_mean": 0.6136541727689564,
+    "random_consistency_mean": 0.5086932022687877
+  },
+  "Llama-3.1-8B": {
+    "size": 8.0,
+    "family": "Llama",
+    "bell_consistency_mean": 0.6476883842506655,
+    "bell_consistency_frac_high": 0.7666666666666667,
+    "welltuned_consistency_mean": 0.6774108320006725,
+    "random_consistency_mean": 0.48564433423071673
+  },
+  "phi-4": {
+    "size": 14.0,
+    "family": "Phi",
+    "bell_consistency_mean": 0.5911053011529983,
+    "bell_consistency_frac_high": 0.7666666666666667,
+    "welltuned_consistency_mean": 0.4393868416332376,
+    "random_consistency_mean": 0.2960431815198284
+  },
+  "Qwen3-14B": {
+    "size": 14.0,
+    "family": "Qwen",
+    "bell_consistency_mean": 0.01204924935636836,
+    "bell_consistency_frac_high": 0.2,
+    "welltuned_consistency_mean": 0.14069927703848234,
+    "random_consistency_mean": 0.31191012802086565
+  },
+  "Mistral-Small-24B": {
+    "size": 24.0,
+    "family": "Mistral",
+    "bell_consistency_mean": 0.6951391450267052,
+    "bell_consistency_frac_high": 0.8,
+    "welltuned_consistency_mean": 0.6131328443683366,
+    "random_consistency_mean": 0.4658622301743551
+  },
+  "Qwen3-32B": {
+    "size": 32.0,
+    "family": "Qwen",
+    "bell_consistency_mean": 0.35536888546039685,
+    "bell_consistency_frac_high": 0.3,
+    "welltuned_consistency_mean": 0.25928186274516435,
+    "random_consistency_mean": 0.30152414955455514
+  },
+  "Qwen2.5-72B": {
+    "size": 72.0,
+    "family": "Qwen",
+    "bell_consistency_mean": 0.6414210703888396,
+    "bell_consistency_frac_high": 0.7666666666666667,
+    "welltuned_consistency_mean": 0.4915648205475755,
+    "random_consistency_mean": 0.27588809108229556
+  },
+  "Llama-3.1-70B": {
+    "size": 70.0,
+    "family": "Llama",
+    "bell_consistency_mean": 0.6926248044327253,
+    "bell_consistency_frac_high": 0.8333333333333334,
+    "welltuned_consistency_mean": 0.6345111228883482,
+    "random_consistency_mean": 0.44844294122737144
+  },
+  "Gemma-2-9B": {
+    "size": 9.0,
+    "family": "Gemma",
+    "bell_consistency_mean": 0.6886255594891263,
+    "bell_consistency_frac_high": 0.8666666666666667,
+    "welltuned_consistency_mean": 0.5907108824183227,
+    "random_consistency_mean": 0.4709093880859796
+  },
+  "Gemma-2-27B": {
+    "size": 27.0,
+    "family": "Gemma",
+    "bell_consistency_mean": 0.5059206196729293,
+    "bell_consistency_frac_high": 0.5333333333333333,
+    "welltuned_consistency_mean": 0.1466835013667232,
+    "random_consistency_mean": 0.4219220122199041
+  }
+}

@@ -1,0 +1,981 @@
+{
+  "Qwen3-0.6B": {
+    "Lc": 19,
+    "pass_rate": 0.5,
+    "pass_ci": [
+      0.125,
+      0.875
+    ],
+    "mean_effect": 2.731010157592351,
+    "eff_ci": [
+      1.5082941365816909,
+      3.951824629273615
+    ],
+    "per_concept": {
+      "Paris": {
+        "target": 2.3883560775045334,
+        "symmetry": -4.764627980543465,
+        "random": -0.16990515033433615,
+        "pass": true
+      },
+      "Tokyo": {
+        "target": 4.764627980543465,
+        "symmetry": -2.3883560775045334,
+        "random": 2.0425604917678473,
+        "pass": true
+      },
+      "Einstein": {
+        "target": 5.507171945963121,
+        "symmetry": -1.3259569953516568,
+        "random": 1.7245224729890638,
+        "pass": true
+      },
+      "Shakespeare": {
+        "target": 1.3259569953516568,
+        "symmetry": -5.507171945963121,
+        "random": -2.0199971552412,
+        "pass": false
+      },
+      "Moon": {
+        "target": -0.19915076663776365,
+        "symmetry": -2.6672834211583902,
+        "random": -0.036070786817609425,
+        "pass": false
+      },
+      "Ocean": {
+        "target": 2.6672834211583902,
+        "symmetry": 0.19915076663776365,
+        "random": 4.17472503761747,
+        "pass": false
+      },
+      "Piano": {
+        "target": 1.447793345656511,
+        "symmetry": -3.9460422611988957,
+        "random": 2.313554755199828,
+        "pass": false
+      },
+      "Dinosaur": {
+        "target": 3.9460422611988957,
+        "symmetry": -1.447793345656511,
+        "random": -1.3949750226212358,
+        "pass": true
+      }
+    },
+    "size": 0.6,
+    "family": "Qwen"
+  },
+  "Llama-3.2-1B": {
+    "Lc": 11,
+    "pass_rate": 0.75,
+    "pass_ci": [
+      0.5,
+      1.0
+    ],
+    "mean_effect": 3.5394841325880386,
+    "eff_ci": [
+      2.0351168421357326,
+      5.015948025377731
+    ],
+    "per_concept": {
+      "Paris": {
+        "target": 4.870872429499323,
+        "symmetry": -7.09378423098902,
+        "random": -0.6264273426912504,
+        "pass": true
+      },
+      "Tokyo": {
+        "target": 7.09378423098902,
+        "symmetry": -4.870872429499323,
+        "random": 0.6420655698679021,
+        "pass": true
+      },
+      "Einstein": {
+        "target": 5.341515843918976,
+        "symmetry": -1.7314795167795625,
+        "random": 0.811193884883821,
+        "pass": true
+      },
+      "Shakespeare": {
+        "target": 1.7314795167795625,
+        "symmetry": -5.341515843918976,
+        "random": -1.4849457750100052,
+        "pass": false
+      },
+      "Moon": {
+        "target": -0.1084565082080799,
+        "symmetry": -4.708296266206254,
+        "random": -1.6802606424762658,
+        "pass": false
+      },
+      "Ocean": {
+        "target": 4.708296266206254,
+        "symmetry": 0.1084565082080799,
+        "random": -0.44045112722294605,
+        "pass": true
+      },
+      "Piano": {
+        "target": 2.6090636021751603,
+        "symmetry": -2.0693176793440933,
+        "random": 0.0930334015922675,
+        "pass": true
+      },
+      "Dinosaur": {
+        "target": 2.0693176793440933,
+        "symmetry": -2.6090636021751603,
+        "random": 0.24887394064461246,
+        "pass": true
+      }
+    },
+    "size": 1.0,
+    "family": "Llama"
+  },
+  "Qwen3-1.7B": {
+    "Lc": 19,
+    "pass_rate": 0.875,
+    "pass_ci": [
+      0.625,
+      1.0
+    ],
+    "mean_effect": 9.06881811754381,
+    "eff_ci": [
+      5.811909561220927,
+      12.179681814259899
+    ],
+    "per_concept": {
+      "Paris": {
+        "target": 8.85430963422875,
+        "symmetry": -7.631562356489314,
+        "random": -0.6932742631070384,
+        "pass": true
+      },
+      "Tokyo": {
+        "target": 7.631562356489314,
+        "symmetry": -8.85430963422875,
+        "random": 1.0068251845624214,
+        "pass": true
+      },
+      "Einstein": {
+        "target": 17.885256454071804,
+        "symmetry": -9.70322161013607,
+        "random": 0.7109127998720042,
+        "pass": true
+      },
+      "Shakespeare": {
+        "target": 9.70322161013607,
+        "symmetry": -17.885256454071804,
+        "random": -0.6986872109410676,
+        "pass": true
+      },
+      "Moon": {
+        "target": -0.037337563483447855,
+        "symmetry": -9.502102011048425,
+        "random": -1.7446824728819301,
+        "pass": false
+      },
+      "Ocean": {
+        "target": 9.502102011048425,
+        "symmetry": 0.037337563483447855,
+        "random": 1.1000914862221498,
+        "pass": true
+      },
+      "Piano": {
+        "target": 7.881049186410279,
+        "symmetry": -11.130381251449275,
+        "random": -0.7547824145295743,
+        "pass": true
+      },
+      "Dinosaur": {
+        "target": 11.130381251449275,
+        "symmetry": -7.881049186410279,
+        "random": 2.872821647660782,
+        "pass": true
+      }
+    },
+    "size": 1.7,
+    "family": "Qwen"
+  },
+  "Llama-3.2-3B": {
+    "Lc": 19,
+    "pass_rate": 0.875,
+    "pass_ci": [
+      0.625,
+      1.0
+    ],
+    "mean_effect": 5.57241711943257,
+    "eff_ci": [
+      4.0063242894701165,
+      7.215061579938887
+    ],
+    "per_concept": {
+      "Paris": {
+        "target": 7.11566328980709,
+        "symmetry": -9.778920206124077,
+        "random": -1.967499470047321,
+        "pass": true
+      },
+      "Tokyo": {
+        "target": 9.778920206124077,
+        "symmetry": -7.11566328980709,
+        "random": -0.6661990167915615,
+        "pass": true
+      },
+      "Einstein": {
+        "target": 6.808609885799537,
+        "symmetry": -4.628389782458356,
+        "random": 2.1252740736735847,
+        "pass": true
+      },
+      "Shakespeare": {
+        "target": 4.628389782458356,
+        "symmetry": -6.808609885799537,
+        "random": 0.11686920937605508,
+        "pass": true
+      },
+      "Moon": {
+        "target": 2.5000228506216047,
+        "symmetry": -5.224552020931771,
+        "random": 0.6468655815482797,
+        "pass": true
+      },
+      "Ocean": {
+        "target": 5.224552020931771,
+        "symmetry": -2.5000228506216047,
+        "random": -0.4175348502830129,
+        "pass": true
+      },
+      "Piano": {
+        "target": 5.991357258304265,
+        "symmetry": -2.5318216614138604,
+        "random": -0.32778180105091287,
+        "pass": true
+      },
+      "Dinosaur": {
+        "target": 2.5318216614138604,
+        "symmetry": -5.991357258304265,
+        "random": -1.5926404001118226,
+        "pass": false
+      }
+    },
+    "size": 3.0,
+    "family": "Llama"
+  },
+  "Phi-3.5-mini": {
+    "Lc": 21,
+    "pass_rate": 0.75,
+    "pass_ci": [
+      0.375,
+      1.0
+    ],
+    "mean_effect": 14.45620241849918,
+    "eff_ci": [
+      3.7437083696480506,
+      25.517719031545912
+    ],
+    "per_concept": {
+      "Paris": {
+        "target": 23.509117793876065,
+        "symmetry": -15.9723133698525,
+        "random": 0.0067842084950312295,
+        "pass": true
+      },
+      "Tokyo": {
+        "target": 15.9723133698525,
+        "symmetry": -23.509117793876065,
+        "random": 1.540470921448374,
+        "pass": true
+      },
+      "Einstein": {
+        "target": 28.490103911080155,
+        "symmetry": -4.2785320497751,
+        "random": -0.16625598731893182,
+        "pass": true
+      },
+      "Shakespeare": {
+        "target": 4.2785320497751,
+        "symmetry": -28.490103911080155,
+        "random": -2.096110706206029,
+        "pass": true
+      },
+      "Moon": {
+        "target": -7.36210735599075,
+        "symmetry": -13.482411720764153,
+        "random": -3.444155088254071,
+        "pass": false
+      },
+      "Ocean": {
+        "target": 13.482411720764153,
+        "symmetry": 7.36210735599075,
+        "random": 4.415916353100732,
+        "pass": true
+      },
+      "Piano": {
+        "target": 41.452047714294686,
+        "symmetry": 4.172799855658475,
+        "random": 13.605844327867937,
+        "pass": true
+      },
+      "Dinosaur": {
+        "target": -4.172799855658475,
+        "symmetry": -41.452047714294686,
+        "random": -13.089702086701596,
+        "pass": false
+      }
+    },
+    "size": 3.8,
+    "family": "Phi"
+  },
+  "Qwen3-4B": {
+    "Lc": 24,
+    "pass_rate": 0.75,
+    "pass_ci": [
+      0.5,
+      1.0
+    ],
+    "mean_effect": 2.0513770709225163,
+    "eff_ci": [
+      1.2840130289307687,
+      2.7634114973025135
+    ],
+    "per_concept": {
+      "Paris": {
+        "target": 2.351499842143277,
+        "symmetry": -2.3693553275778934,
+        "random": -0.4344381855573339,
+        "pass": true
+      },
+      "Tokyo": {
+        "target": 2.3693553275778934,
+        "symmetry": -2.351499842143277,
+        "random": 0.8390134220661014,
+        "pass": true
+      },
+      "Einstein": {
+        "target": 2.7063361857401764,
+        "symmetry": -3.1708453125202434,
+        "random": 0.6201930377267109,
+        "pass": true
+      },
+      "Shakespeare": {
+        "target": 3.1708453125202434,
+        "symmetry": -2.7063361857401764,
+        "random": -0.8044697907881508,
+        "pass": true
+      },
+      "Moon": {
+        "target": 0.7547156876350227,
+        "symmetry": -1.6812990694478276,
+        "random": -1.0003608940044963,
+        "pass": false
+      },
+      "Ocean": {
+        "target": 1.6812990694478276,
+        "symmetry": -0.7547156876350227,
+        "random": 0.6783374895545883,
+        "pass": true
+      },
+      "Piano": {
+        "target": 3.4470281037245343,
+        "symmetry": 0.07006296140884383,
+        "random": -1.5125314239877872,
+        "pass": true
+      },
+      "Dinosaur": {
+        "target": -0.07006296140884383,
+        "symmetry": -3.4470281037245343,
+        "random": 0.5192613517138023,
+        "pass": false
+      }
+    },
+    "size": 4.0,
+    "family": "Qwen"
+  },
+  "Qwen3-8B": {
+    "Lc": 24,
+    "pass_rate": 0.375,
+    "pass_ci": [
+      0.125,
+      0.75
+    ],
+    "mean_effect": 2.3188948760582186,
+    "eff_ci": [
+      1.6899088137441904,
+      2.992138697213503
+    ],
+    "per_concept": {
+      "Paris": {
+        "target": 1.7840265024785193,
+        "symmetry": -3.8999769214574,
+        "random": 1.5747910232368505,
+        "pass": false
+      },
+      "Tokyo": {
+        "target": 3.8999769214574,
+        "symmetry": -1.7840265024785193,
+        "random": -0.9378012585308323,
+        "pass": true
+      },
+      "Einstein": {
+        "target": 2.176949225135251,
+        "symmetry": -1.969534458589873,
+        "random": 2.183673737110975,
+        "pass": false
+      },
+      "Shakespeare": {
+        "target": 1.969534458589873,
+        "symmetry": -2.176949225135251,
+        "random": -0.09782867562949119,
+        "pass": true
+      },
+      "Moon": {
+        "target": 2.406481407475952,
+        "symmetry": -0.9677681823345083,
+        "random": 1.3443596029739977,
+        "pass": false
+      },
+      "Ocean": {
+        "target": 0.9677681823345083,
+        "symmetry": -2.406481407475952,
+        "random": 0.5795900412915985,
+        "pass": false
+      },
+      "Piano": {
+        "target": 1.6235414176949416,
+        "symmetry": -3.722880893299305,
+        "random": 1.6058627299443446,
+        "pass": false
+      },
+      "Dinosaur": {
+        "target": 3.722880893299305,
+        "symmetry": -1.6235414176949416,
+        "random": 1.5828420888190902,
+        "pass": true
+      }
+    },
+    "size": 8.0,
+    "family": "Qwen"
+  },
+  "Ministral-8B": {
+    "Lc": 24,
+    "pass_rate": 0.625,
+    "pass_ci": [
+      0.25,
+      0.875
+    ],
+    "mean_effect": 5.188760774147739,
+    "eff_ci": [
+      3.3969758083456343,
+      6.88619151994947
+    ],
+    "per_concept": {
+      "Paris": {
+        "target": 6.1733238546226135,
+        "symmetry": -1.1462111027278674,
+        "random": -0.45046466255429685,
+        "pass": true
+      },
+      "Tokyo": {
+        "target": 1.1462111027278674,
+        "symmetry": -6.1733238546226135,
+        "random": 0.6108190449057636,
+        "pass": false
+      },
+      "Einstein": {
+        "target": 5.198578824382546,
+        "symmetry": -8.375747697127409,
+        "random": 0.3489406933767577,
+        "pass": true
+      },
+      "Shakespeare": {
+        "target": 8.375747697127409,
+        "symmetry": -5.198578824382546,
+        "random": -0.21997524196060914,
+        "pass": true
+      },
+      "Moon": {
+        "target": 2.869690311543887,
+        "symmetry": -2.739978886021003,
+        "random": 1.6276333013277242,
+        "pass": false
+      },
+      "Ocean": {
+        "target": 2.739978886021003,
+        "symmetry": -2.869690311543887,
+        "random": -1.7992024300186416,
+        "pass": false
+      },
+      "Piano": {
+        "target": 8.238450250921744,
+        "symmetry": -6.7681052658348415,
+        "random": 2.1437162804406613,
+        "pass": true
+      },
+      "Dinosaur": {
+        "target": 6.7681052658348415,
+        "symmetry": -8.238450250921744,
+        "random": -1.141279811357111,
+        "pass": true
+      }
+    },
+    "size": 8.0,
+    "family": "Mistral"
+  },
+  "Llama-3.1-8B": {
+    "Lc": 21,
+    "pass_rate": 0.75,
+    "pass_ci": [
+      0.375,
+      1.0
+    ],
+    "mean_effect": 5.020475289936154,
+    "eff_ci": [
+      2.826317400592869,
+      7.05521744992242
+    ],
+    "per_concept": {
+      "Paris": {
+        "target": 8.653182722065608,
+        "symmetry": -2.157083975783119,
+        "random": -0.46373369838269607,
+        "pass": true
+      },
+      "Tokyo": {
+        "target": 2.157083975783119,
+        "symmetry": -8.653182722065608,
+        "random": -0.5697946834176754,
+        "pass": true
+      },
+      "Einstein": {
+        "target": 7.590783442795156,
+        "symmetry": -6.283603514413597,
+        "random": -0.1747483017916719,
+        "pass": true
+      },
+      "Shakespeare": {
+        "target": 6.283603514413597,
+        "symmetry": -7.590783442795156,
+        "random": 0.8702248481333662,
+        "pass": true
+      },
+      "Moon": {
+        "target": 7.217131706947275,
+        "symmetry": -0.17005470894277153,
+        "random": 2.092509216261583,
+        "pass": true
+      },
+      "Ocean": {
+        "target": 0.17005470894277153,
+        "symmetry": -7.217131706947275,
+        "random": -0.8627775636996923,
+        "pass": false
+      },
+      "Piano": {
+        "target": 6.877859943648339,
+        "symmetry": -1.2141023048933715,
+        "random": 1.1302949462092635,
+        "pass": true
+      },
+      "Dinosaur": {
+        "target": 1.2141023048933715,
+        "symmetry": -6.877859943648339,
+        "random": -0.8111275656325716,
+        "pass": false
+      }
+    },
+    "size": 8.0,
+    "family": "Llama"
+  },
+  "phi-4": {
+    "Lc": 27,
+    "pass_rate": 1.0,
+    "pass_ci": [
+      1.0,
+      1.0
+    ],
+    "mean_effect": 10.014219681076572,
+    "eff_ci": [
+      7.4941685833468155,
+      12.298132152055189
+    ],
+    "per_concept": {
+      "Paris": {
+        "target": 10.208527837751804,
+        "symmetry": -9.510257413857655,
+        "random": 0.0017902572657643389,
+        "pass": true
+      },
+      "Tokyo": {
+        "target": 9.510257413857655,
+        "symmetry": -10.208527837751804,
+        "random": -0.08335537513725991,
+        "pass": true
+      },
+      "Einstein": {
+        "target": 15.475416072487269,
+        "symmetry": -13.719238198311567,
+        "random": 1.0475979221803482,
+        "pass": true
+      },
+      "Shakespeare": {
+        "target": 13.719238198311567,
+        "symmetry": -15.475416072487269,
+        "random": -1.2869195844113583,
+        "pass": true
+      },
+      "Moon": {
+        "target": 7.04636805314427,
+        "symmetry": -3.2461426715030193,
+        "random": 0.5148161068815356,
+        "pass": true
+      },
+      "Ocean": {
+        "target": 3.2461426715030193,
+        "symmetry": -7.04636805314427,
+        "random": -0.8455474645211144,
+        "pass": true
+      },
+      "Piano": {
+        "target": 10.839371616074416,
+        "symmetry": -10.068435585482579,
+        "random": 1.7088459538491598,
+        "pass": true
+      },
+      "Dinosaur": {
+        "target": 10.068435585482579,
+        "symmetry": -10.839371616074416,
+        "random": -1.687485358690245,
+        "pass": true
+      }
+    },
+    "size": 14.0,
+    "family": "Phi"
+  },
+  "Qwen3-14B": {
+    "Lc": 27,
+    "pass_rate": 0.125,
+    "pass_ci": [
+      0.0,
+      0.375
+    ],
+    "mean_effect": -0.3220313057277642,
+    "eff_ci": [
+      -2.3878223430104826,
+      2.0412192379698535
+    ],
+    "per_concept": {
+      "Paris": {
+        "target": -3.748511408676946,
+        "symmetry": -5.481959115578362,
+        "random": 0.7348151817726897,
+        "pass": false
+      },
+      "Tokyo": {
+        "target": 5.481959115578362,
+        "symmetry": 3.748511408676946,
+        "random": -0.3188051921022108,
+        "pass": true
+      },
+      "Einstein": {
+        "target": -2.487099749911222,
+        "symmetry": -1.5920005686533605,
+        "random": -0.14749234701176456,
+        "pass": false
+      },
+      "Shakespeare": {
+        "target": 1.5920005686533605,
+        "symmetry": 2.487099749911222,
+        "random": -1.9813237414741853,
+        "pass": false
+      },
+      "Moon": {
+        "target": 2.0575086156643203,
+        "symmetry": 4.442302596655838,
+        "random": 2.4908700451929473,
+        "pass": false
+      },
+      "Ocean": {
+        "target": -4.442302596655838,
+        "symmetry": -2.0575086156643203,
+        "random": -2.0079341746198187,
+        "pass": false
+      },
+      "Piano": {
+        "target": 1.5106892180502438,
+        "symmetry": 2.5404942085243936,
+        "random": 1.3143212697367914,
+        "pass": false
+      },
+      "Dinosaur": {
+        "target": -2.5404942085243936,
+        "symmetry": -1.5106892180502438,
+        "random": -1.1055011994035495,
+        "pass": false
+      }
+    },
+    "size": 14.0,
+    "family": "Qwen"
+  },
+  "Mistral-Small-24B": {
+    "Lc": 27,
+    "pass_rate": 1.0,
+    "pass_ci": [
+      1.0,
+      1.0
+    ],
+    "mean_effect": 6.703255316354971,
+    "eff_ci": [
+      5.1739077184921864,
+      8.078313575589599
+    ],
+    "per_concept": {
+      "Paris": {
+        "target": 9.021717956597469,
+        "symmetry": -5.8303366687279,
+        "random": 0.9358579754796862,
+        "pass": true
+      },
+      "Tokyo": {
+        "target": 5.8303366687279,
+        "symmetry": -9.021717956597469,
+        "random": -0.7667831466483791,
+        "pass": true
+      },
+      "Einstein": {
+        "target": 9.548984675121634,
+        "symmetry": -8.425809065067359,
+        "random": 0.49927691364148796,
+        "pass": true
+      },
+      "Shakespeare": {
+        "target": 8.425809065067359,
+        "symmetry": -9.548984675121634,
+        "random": -0.5614105375738015,
+        "pass": true
+      },
+      "Moon": {
+        "target": 6.192975344248856,
+        "symmetry": -2.5772328682222923,
+        "random": 0.34652231487403795,
+        "pass": true
+      },
+      "Ocean": {
+        "target": 2.5772328682222923,
+        "symmetry": -6.192975344248856,
+        "random": 0.4313310707894809,
+        "pass": true
+      },
+      "Piano": {
+        "target": 6.274242803699636,
+        "symmetry": -5.754743149154617,
+        "random": -0.05413043221262746,
+        "pass": true
+      },
+      "Dinosaur": {
+        "target": 5.754743149154617,
+        "symmetry": -6.274242803699636,
+        "random": -0.24369867924928115,
+        "pass": true
+      }
+    },
+    "size": 24.0,
+    "family": "Mistral",
+    "precision": "bf16"
+  },
+  "Qwen3-32B": {
+    "Lc": 43,
+    "pass_rate": 0.0,
+    "pass_ci": [
+      0.0,
+      0.0
+    ],
+    "mean_effect": -0.052059541202632925,
+    "eff_ci": [
+      -0.8836041000693017,
+      0.8511807637962313
+    ],
+    "per_concept": {
+      "Paris": {
+        "target": -1.6065753439758426,
+        "symmetry": -0.97359271989736,
+        "random": -0.41953863519911855,
+        "pass": false
+      },
+      "Tokyo": {
+        "target": 0.97359271989736,
+        "symmetry": 1.6065753439758426,
+        "random": -0.5604646533174866,
+        "pass": false
+      },
+      "Einstein": {
+        "target": -0.5785198931480318,
+        "symmetry": -1.8445752245863658,
+        "random": 0.15136675620151915,
+        "pass": false
+      },
+      "Shakespeare": {
+        "target": 1.8445752245863658,
+        "symmetry": 0.5785198931480318,
+        "random": -2.136624869095936,
+        "pass": false
+      },
+      "Moon": {
+        "target": 1.1640016965016473,
+        "symmetry": 1.676928554430602,
+        "random": 3.224271788451894,
+        "pass": false
+      },
+      "Ocean": {
+        "target": -1.676928554430602,
+        "symmetry": -1.1640016965016473,
+        "random": -0.7266360321463228,
+        "pass": false
+      },
+      "Piano": {
+        "target": -0.9866798846095403,
+        "symmetry": -0.45005770555758023,
+        "random": 2.4191504085604003,
+        "pass": false
+      },
+      "Dinosaur": {
+        "target": 0.45005770555758023,
+        "symmetry": 0.9866798846095403,
+        "random": -0.7547330375308647,
+        "pass": false
+      }
+    },
+    "size": 32.0,
+    "family": "Qwen",
+    "precision": "bf16"
+  },
+  "Qwen3-32B-8bit": {
+    "Lc": 43,
+    "pass_rate": 0.0,
+    "pass_ci": [
+      0.0,
+      0.0
+    ],
+    "mean_effect": 0.01212002615143111,
+    "eff_ci": [
+      -0.8227476776363434,
+      0.9037559831710343
+    ],
+    "per_concept": {
+      "Paris": {
+        "target": -1.4903322545766085,
+        "symmetry": -0.18437771764613903,
+        "random": -0.31699376469165375,
+        "pass": false
+      },
+      "Tokyo": {
+        "target": 0.18437771764613903,
+        "symmetry": 1.4903322545766085,
+        "random": -0.6708607751026994,
+        "pass": false
+      },
+      "Einstein": {
+        "target": 0.29027701530028727,
+        "symmetry": -2.0429070503727877,
+        "random": 0.31391368612929194,
+        "pass": false
+      },
+      "Shakespeare": {
+        "target": 2.0429070503727877,
+        "symmetry": -0.29027701530028727,
+        "random": -2.296417579972904,
+        "pass": false
+      },
+      "Moon": {
+        "target": 1.3417176585259678,
+        "symmetry": 1.8015998098095767,
+        "random": 3.270534024359339,
+        "pass": false
+      },
+      "Ocean": {
+        "target": -1.8015998098095767,
+        "symmetry": -1.3417176585259678,
+        "random": -0.6111203880540522,
+        "pass": false
+      },
+      "Piano": {
+        "target": -0.8665823310302232,
+        "symmetry": -0.3961951627826753,
+        "random": 2.5129379321845517,
+        "pass": false
+      },
+      "Dinosaur": {
+        "target": 0.3961951627826753,
+        "symmetry": 0.8665823310302232,
+        "random": -0.876783243529523,
+        "pass": false
+      }
+    },
+    "size": 32.0,
+    "family": "Qwen",
+    "precision": "8bit"
+  },
+  "Qwen2.5-72B": {
+    "Lc": 53,
+    "pass_rate": 1.0,
+    "pass_ci": [
+      1.0,
+      1.0
+    ],
+    "mean_effect": 8.352741057739522,
+    "eff_ci": [
+      6.598870350777044,
+      9.73031999737973
+    ],
+    "per_concept": {
+      "Paris": {
+        "target": 9.878284769680072,
+        "symmetry": -10.986067616015795,
+        "random": -0.6136367982103655,
+        "pass": true
+      },
+      "Tokyo": {
+        "target": 10.986067616015795,
+        "symmetry": -9.878284769680072,
+        "random": 0.161735398494456,
+        "pass": true
+      },
+      "Einstein": {
+        "target": 9.17798775057723,
+        "symmetry": -10.070932642436643,
+        "random": -0.9917402106503366,
+        "pass": true
+      },
+      "Shakespeare": {
+        "target": 10.070932642436643,
+        "symmetry": -9.17798775057723,
+        "random": 0.6123959077919006,
+        "pass": true
+      },
+      "Moon": {
+        "target": 2.9707847204475626,
+        "symmetry": -7.960167631622081,
+        "random": -0.4850415240425169,
+        "pass": true
+      },
+      "Ocean": {
+        "target": 7.960167631622081,
+        "symmetry": -2.9707847204475626,
+        "random": 1.323393527457065,
+        "pass": true
+      },
+      "Piano": {
+        "target": 6.8734631061481775,
+        "symmetry": -8.904240224988612,
+        "random": 2.124249981593468,
+        "pass": true
+      },
+      "Dinosaur": {
+        "target": 8.904240224988612,
+        "symmetry": -6.8734631061481775,
+        "random": -0.8052155628179778,
+        "pass": true
+      }
+    },
+    "size": 72.0,
+    "family": "Qwen",
+    "precision": "4bit"
+  }
+}

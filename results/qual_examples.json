@@ -1,0 +1,63 @@
+{
+  "model": "Llama-3.1-8B",
+  "layer": 26,
+  "prompt": "Tell me a short, everyday story in two sentences.",
+  "resid_norm": 120.88271586100261,
+  "examples": [
+    {
+      "concept": "Paris",
+      "category": "city",
+      "coef": 0.1,
+      "text": "As she sipped her morning coffee, Emily gazed out the window at the sun rising over the rooftops, feeling grateful for another day to tackle her busy schedule. She took a deep breath, grabbed her bag, and headed out the"
+    },
+    {
+      "concept": "Paris",
+      "category": "city",
+      "coef": 0.2,
+      "text": "As she sipped her morning coffee, Emily gazed out the window at the charming Parisian street, watching the sun rise over the Eiffel Tower and the city's iconic street performers begin to set up their charming street shows. The"
+    },
+    {
+      "concept": "Paris",
+      "category": "city",
+      "coef": 0.35,
+      "text": "Parisian Parisian Parisian Parisian Parisian Parisian Parisian Parisian Paris France Paris France Paris France Paris France Paris France Paris France Paris France Paris France Paris France Paris France Paris France Paris France Paris France Paris France Paris France Paris France"
+    },
+    {
+      "concept": "Volcano",
+      "category": "object",
+      "coef": 0.1,
+      "text": "As she sipped her morning coffee, Sarah gazed out the window at the sun rising over the quiet neighborhood, feeling grateful for the peaceful start to the day. The sound of birds chirping and the gentle breeze rustling the leaves of"
+    },
+    {
+      "concept": "Volcano",
+      "category": "object",
+      "coef": 0.2,
+      "text": "As the sun rose over the city, Sarah poured herself a steaming cup of coffee and stepped onto the quiet streets, the morning air filled with the sweet scent of blooming flowers. She took a deep breath, feeling the warmth of the"
+    },
+    {
+      "concept": "Volcano",
+      "category": "object",
+      "coef": 0.35,
+      "text": "������������������������������������������������"
+    },
+    {
+      "concept": "Dolphin",
+      "category": "animal",
+      "coef": 0.1,
+      "text": "As she sipped her morning coffee, Emily gazed out the window at the sunlight dancing across the dew-kissed grass, feeling grateful for the peacefulness of her quiet neighborhood. She took a deep breath, feeling the calm wash over"
+    },
+    {
+      "concept": "Dolphin",
+      "category": "animal",
+      "coef": 0.2,
+      "text": "As she sipped her morning coffee, Emily gazed out the window at the sunlight dancing across the waves of the ocean, feeling grateful for the peacefulness of her coastal town. She took a deep breath, the salty air filling her lungs"
+    },
+    {
+      "concept": "Dolphin",
+      "category": "animal",
+      "coef": 0.35,
+      "text": "playful waves splash waves splash waves splash waves splash waves splash waves splash waves splash waves splash waves splash waves splash waves splash waves splash waves splash waves splash waves splash waves splash waves splash waves splash waves splash waves splash waves splash waves splash waves splash waves"
+    }
+  ],
+  "baseline": "As she sipped her morning coffee, Emily gazed out the window at the dew-kissed garden, watching the sunlight dance across the petals of her favorite rose bush. It was going to be a beautiful day, and she was excited"
+}

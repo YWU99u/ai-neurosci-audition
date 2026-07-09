@@ -1,0 +1,172 @@
+{
+  "Qwen3-0.6B": {
+    "old_bell_frac": 0.0,
+    "new_bell_frac": 0.16666666666666666,
+    "new_sel_qr_mean": 0.9716722478897256,
+    "n_bell_anywhere": 950,
+    "n_welltuned": 1804,
+    "overlap_old_new": 0.13333333333333333,
+    "size": 0.6,
+    "family": "Qwen"
+  },
+  "Llama-3.2-1B": {
+    "old_bell_frac": 0.0,
+    "new_bell_frac": 0.4666666666666667,
+    "new_sel_qr_mean": 0.8811837517080312,
+    "n_bell_anywhere": 344,
+    "n_welltuned": 845,
+    "overlap_old_new": 0.23333333333333334,
+    "size": 1.0,
+    "family": "Llama"
+  },
+  "Qwen3-1.7B": {
+    "old_bell_frac": 0.0,
+    "new_bell_frac": 0.06666666666666667,
+    "new_sel_qr_mean": 0.9896955835310843,
+    "n_bell_anywhere": 626,
+    "n_welltuned": 1332,
+    "overlap_old_new": 0.03333333333333333,
+    "size": 1.7,
+    "family": "Qwen"
+  },
+  "Llama-3.2-3B": {
+    "old_bell_frac": 0.0,
+    "new_bell_frac": 0.4666666666666667,
+    "new_sel_qr_mean": 0.8841697789100501,
+    "n_bell_anywhere": 363,
+    "n_welltuned": 777,
+    "overlap_old_new": 0.26666666666666666,
+    "size": 3.0,
+    "family": "Llama"
+  },
+  "Phi-3.5-mini": {
+    "old_bell_frac": 0.0,
+    "new_bell_frac": 0.3333333333333333,
+    "new_sel_qr_mean": 0.8936682308787947,
+    "n_bell_anywhere": 483,
+    "n_welltuned": 1314,
+    "overlap_old_new": 0.2,
+    "size": 3.8,
+    "family": "Phi"
+  },
+  "Qwen3-4B": {
+    "old_bell_frac": 0.0,
+    "new_bell_frac": 0.0,
+    "new_sel_qr_mean": 0.9989864236617801,
+    "n_bell_anywhere": 1028,
+    "n_welltuned": 7972,
+    "overlap_old_new": 0.0,
+    "size": 4.0,
+    "family": "Qwen"
+  },
+  "Qwen3-8B": {
+    "old_bell_frac": 0.0,
+    "new_bell_frac": 0.0,
+    "new_sel_qr_mean": 1.0,
+    "n_bell_anywhere": 1657,
+    "n_welltuned": 14662,
+    "overlap_old_new": 0.0,
+    "size": 8.0,
+    "family": "Qwen"
+  },
+  "Ministral-8B": {
+    "old_bell_frac": 0.0,
+    "new_bell_frac": 0.3333333333333333,
+    "new_sel_qr_mean": 0.9302914279796387,
+    "n_bell_anywhere": 1895,
+    "n_welltuned": 4452,
+    "overlap_old_new": 0.16666666666666666,
+    "size": 8.0,
+    "family": "Mistral"
+  },
+  "Llama-3.1-8B": {
+    "old_bell_frac": 0.0,
+    "new_bell_frac": 0.4666666666666667,
+    "new_sel_qr_mean": 0.9026030855290634,
+    "n_bell_anywhere": 895,
+    "n_welltuned": 1942,
+    "overlap_old_new": 0.2,
+    "size": 8.0,
+    "family": "Llama"
+  },
+  "phi-4": {
+    "old_bell_frac": 0.0,
+    "new_bell_frac": 0.36666666666666664,
+    "new_sel_qr_mean": 0.9150089747317433,
+    "n_bell_anywhere": 2659,
+    "n_welltuned": 5490,
+    "overlap_old_new": 0.13333333333333333,
+    "size": 14.0,
+    "family": "Phi"
+  },
+  "Qwen3-14B": {
+    "old_bell_frac": 0.0,
+    "new_bell_frac": 0.0,
+    "new_sel_qr_mean": 0.9952716757701899,
+    "n_bell_anywhere": 3922,
+    "n_welltuned": 20938,
+    "overlap_old_new": 0.0,
+    "size": 14.0,
+    "family": "Qwen"
+  },
+  "Mistral-Small-24B": {
+    "old_bell_frac": 0.0,
+    "new_bell_frac": 0.4,
+    "new_sel_qr_mean": 0.9381802229768454,
+    "n_bell_anywhere": 5938,
+    "n_welltuned": 12203,
+    "overlap_old_new": 0.16666666666666666,
+    "size": 24.0,
+    "family": "Mistral"
+  },
+  "Qwen3-32B": {
+    "old_bell_frac": 0.0,
+    "new_bell_frac": 0.0,
+    "new_sel_qr_mean": 0.9888781434049061,
+    "n_bell_anywhere": 1958,
+    "n_welltuned": 13335,
+    "overlap_old_new": 0.0,
+    "size": 32.0,
+    "family": "Qwen"
+  },
+  "Qwen2.5-72B": {
+    "old_bell_frac": 0.0,
+    "new_bell_frac": 0.0,
+    "new_sel_qr_mean": 0.9940179855684929,
+    "n_bell_anywhere": 2811,
+    "n_welltuned": 5842,
+    "overlap_old_new": 0.0,
+    "size": 72.0,
+    "family": "Qwen"
+  },
+  "Llama-3.1-70B": {
+    "old_bell_frac": 0.0,
+    "new_bell_frac": 0.43333333333333335,
+    "new_sel_qr_mean": 0.9236481392828916,
+    "n_bell_anywhere": 4334,
+    "n_welltuned": 9993,
+    "overlap_old_new": 0.2,
+    "size": 70.0,
+    "family": "Llama"
+  },
+  "Gemma-2-9B": {
+    "old_bell_frac": 0.0,
+    "new_bell_frac": 0.23333333333333334,
+    "new_sel_qr_mean": 0.9664749777427722,
+    "n_bell_anywhere": 2841,
+    "n_welltuned": 4803,
+    "overlap_old_new": 0.13333333333333333,
+    "size": 9.0,
+    "family": "Gemma"
+  },
+  "Gemma-2-27B": {
+    "old_bell_frac": 0.0,
+    "new_bell_frac": 0.0,
+    "new_sel_qr_mean": 1.0,
+    "n_bell_anywhere": 4478,
+    "n_welltuned": 34235,
+    "overlap_old_new": 0.0,
+    "size": 27.0,
+    "family": "Gemma"
+  }
+}
