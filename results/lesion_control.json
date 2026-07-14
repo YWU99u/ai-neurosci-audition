@@ -15,7 +15,13 @@
     "K": 172,
     "n_test": 12,
     "size": 0.6,
-    "family": "Qwen"
+    "family": "Qwen",
+    "interaction": 3.961023644447326,
+    "inter_ci": [
+      2.678987417592566,
+      5.243059871302086
+    ],
+    "inter_sig": true
   },
   "Qwen3-1.7B": {
     "zh_sel": 2.846925764977932,
@@ -33,7 +39,13 @@
     "K": 344,
     "n_test": 12,
     "size": 1.7,
-    "family": "Qwen"
+    "family": "Qwen",
+    "interaction": 2.8687463399171826,
+    "inter_ci": [
+      2.055027695918213,
+      3.682464983916152
+    ],
+    "inter_sig": true
   },
   "Qwen3-4B": {
     "zh_sel": 3.242221700065666,
@@ -51,7 +63,13 @@
     "K": 700,
     "n_test": 12,
     "size": 4.0,
-    "family": "Qwen"
+    "family": "Qwen",
+    "interaction": 3.412283609602187,
+    "inter_ci": [
+      1.4923651449452338,
+      5.33220207425914
+    ],
+    "inter_sig": true
   },
   "Qwen3-8B": {
     "zh_sel": 1.917526648660501,
@@ -69,7 +87,13 @@
     "K": 884,
     "n_test": 12,
     "size": 8.0,
-    "family": "Qwen"
+    "family": "Qwen",
+    "interaction": 1.426817607909441,
+    "inter_ci": [
+      0.1660502869331082,
+      2.687584928885774
+    ],
+    "inter_sig": true
   },
   "Qwen3-14B": {
     "zh_sel": 0.9921476740638415,
@@ -87,7 +111,13 @@
     "K": 1392,
     "n_test": 12,
     "size": 14.0,
-    "family": "Qwen"
+    "family": "Qwen",
+    "interaction": 1.0944226778679425,
+    "inter_ci": [
+      0.6287811850229849,
+      1.5600641707129
+    ],
+    "inter_sig": true
   },
   "Llama-3.1-8B": {
     "zh_sel": 9.81899139709605,
@@ -105,7 +135,13 @@
     "K": 917,
     "n_test": 12,
     "size": 8.0,
-    "family": "Llama"
+    "family": "Llama",
+    "interaction": 9.110166627731587,
+    "inter_ci": [
+      8.354603760958872,
+      9.865729494504302
+    ],
+    "inter_sig": true
   },
   "Ministral-8B": {
     "zh_sel": 6.785045103695657,
@@ -123,7 +159,13 @@
     "K": 884,
     "n_test": 12,
     "size": 8.0,
-    "family": "Mistral"
+    "family": "Mistral",
+    "interaction": 7.913384057429101,
+    "inter_ci": [
+      7.460493122572569,
+      8.366274992285634
+    ],
+    "inter_sig": true
   },
   "Phi-3.5-mini": {
     "zh_sel": 9.090194791048765,
@@ -141,7 +183,13 @@
     "K": 524,
     "n_test": 12,
     "size": 3.8,
-    "family": "Phi"
+    "family": "Phi",
+    "interaction": 9.303360334932803,
+    "inter_ci": [
+      7.053479056370657,
+      11.553241613494949
+    ],
+    "inter_sig": true
   },
   "phi-4": {
     "zh_sel": 4.642930532190535,
@@ -159,7 +207,13 @@
     "K": 1433,
     "n_test": 12,
     "size": 14.0,
-    "family": "Phi"
+    "family": "Phi",
+    "interaction": 3.9885836224125493,
+    "inter_ci": [
+      3.181652449817491,
+      4.795514795007607
+    ],
+    "inter_sig": true
   },
   "Mistral-Small-24B": {
     "zh_sel": 7.49666324220101,
@@ -177,7 +231,13 @@
     "K": 2621,
     "n_test": 12,
     "size": 24.0,
-    "family": "Mistral"
+    "family": "Mistral",
+    "interaction": 6.4887226183679365,
+    "inter_ci": [
+      6.033925354117026,
+      6.943519882618847
+    ],
+    "inter_sig": true
   },
   "Qwen3-32B": {
     "zh_sel": 2.7582912463148435,
@@ -195,7 +255,13 @@
     "K": 3276,
     "n_test": 12,
     "size": 32.0,
-    "family": "Qwen"
+    "family": "Qwen",
+    "interaction": 6.409871839834585,
+    "inter_ci": [
+      4.881953635939225,
+      7.937790043729945
+    ],
+    "inter_sig": true
   },
   "Qwen2.5-72B": {
     "zh_sel": 2.2904667678342925,
@@ -213,7 +279,13 @@
     "K": 4730,
     "n_test": 12,
     "size": 72.0,
-    "family": "Qwen"
+    "family": "Qwen",
+    "interaction": 2.7806402692298096,
+    "inter_ci": [
+      1.9004645849630863,
+      3.6608159534965328
+    ],
+    "inter_sig": true
   },
   "Llama-3.1-70B": {
     "zh_sel": 8.812066055066055,
@@ -231,7 +303,13 @@
     "K": 4587,
     "n_test": 12,
     "size": 70.0,
-    "family": "Llama"
+    "family": "Llama",
+    "interaction": 4.580245945778157,
+    "inter_ci": [
+      4.018535174350877,
+      5.141956717205437
+    ],
+    "inter_sig": true
   },
   "Llama-3.2-1B": {
     "zh_sel": 5.9980370516909485,
@@ -249,7 +327,13 @@
     "K": 262,
     "n_test": 12,
     "size": 1.0,
-    "family": "Llama"
+    "family": "Llama",
+    "interaction": 5.018891186422771,
+    "inter_ci": [
+      3.9137992626373155,
+      6.123983110208227
+    ],
+    "inter_sig": true
   },
   "Llama-3.2-3B": {
     "zh_sel": 8.200776329961089,
@@ -267,7 +351,13 @@
     "K": 458,
     "n_test": 12,
     "size": 3.0,
-    "family": "Llama"
+    "family": "Llama",
+    "interaction": 6.706100973076292,
+    "inter_ci": [
+      6.10543528378201,
+      7.306766662370573
+    ],
+    "inter_sig": true
   },
   "Gemma-2-9B": {
     "zh_sel": 4.604121460417907,
@@ -285,7 +375,13 @@
     "K": 1204,
     "n_test": 12,
     "size": 9.0,
-    "family": "Gemma"
+    "family": "Gemma",
+    "interaction": 4.767329468839699,
+    "inter_ci": [
+      4.273742307570776,
+      5.260916630108621
+    ],
+    "inter_sig": true
   },
   "Gemma-2-27B": {
     "zh_sel": 7.051807545582453,
@@ -303,6 +399,12 @@
     "K": 3391,
     "n_test": 12,
     "size": 27.0,
-    "family": "Gemma"
+    "family": "Gemma",
+    "interaction": 7.369641793264282,
+    "inter_ci": [
+      6.195791055065179,
+      8.543492531463386
+    ],
+    "inter_sig": true
   }
 }

@@ -1,0 +1,37 @@
+{
+  "Qwen3-0.6B": {
+    "size": 0.6,
+    "cell_A_raw_fixed": 1.9522049088264595,
+    "cell_B_raw_heldout": 4.836236700772141,
+    "cell_C_norm_fixed": 4.544617765526982,
+    "cell_D_norm_heldout": 9.362200016764803
+  },
+  "Qwen3-1.7B": {
+    "size": 1.7,
+    "cell_A_raw_fixed": 2.012788484689097,
+    "cell_B_raw_heldout": 6.8057928590628975,
+    "cell_C_norm_fixed": 10.151392549411216,
+    "cell_D_norm_heldout": 17.203690679457022
+  },
+  "Qwen3-4B": {
+    "size": 4.0,
+    "cell_A_raw_fixed": 1.9184945167503107,
+    "cell_B_raw_heldout": 3.9068873506070383,
+    "cell_C_norm_fixed": 1.3907674831192283,
+    "cell_D_norm_heldout": 6.856719204492312
+  },
+  "Qwen3-8B": {
+    "size": 8.0,
+    "cell_A_raw_fixed": 2.529690967051177,
+    "cell_B_raw_heldout": 5.130462788865969,
+    "cell_C_norm_fixed": 5.131266907969743,
+    "cell_D_norm_heldout": 13.17757030145531
+  },
+  "Qwen3-14B": {
+    "size": 14.0,
+    "cell_A_raw_fixed": 3.038698041092921,
+    "cell_B_raw_heldout": 4.381466444839791,
+    "cell_C_norm_fixed": 4.2389571030022495,
+    "cell_D_norm_heldout": 13.1404132292816
+  }
+}
